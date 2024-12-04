@@ -6,6 +6,8 @@ import Root from "./Root";
 import InOrOutProfile from "./Pages/Account/InOrOutProfile/InOrOutProfile";
 import ChangeAboutsPage from "./Pages/About/ChangeAboutsPage";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import Library from "./Pages/Library/Library";
+import ResultProfile from "./Pages/Library/ResultProfile/ResultProfile";
 
 
 
@@ -20,7 +22,8 @@ function App() {
         <Route path="/account" element={<InOrOutProfile/>} />
         <Route path="/aboutus" element={<ChangeAboutsPage/>} />
         <Route path="/contactus" element={<ContactUs/>} />
-        
+        <Route path="/library" element={<Library/>} />
+        <Route path="/library/:id" element={<ResultProfile/>} />
         
 
         </Route>

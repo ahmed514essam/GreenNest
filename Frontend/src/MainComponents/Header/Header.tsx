@@ -43,7 +43,7 @@ return (
 
   <div className={style.ilnksContents
 }>
-<Link className={style.linkNavs} to={""}>Library</Link>
+<Link className={style.linkNavs} to={"/library"}>Library</Link>
 <Link className={style.linkNavs} to={"/contactus"}>Contact Us</Link>
 <Link className={style.linkNavs} to={"/account"}>Account</Link>
 
@@ -79,7 +79,7 @@ return (
 
 <div className={style.ilnksContent
 }>
-<Link className={style.linkNav} to={""}>Library</Link>
+<Link className={style.linkNav} to={"/library"}>Library</Link>
 
 
 <Link className={style.linkNav} to={"/contactus"}>Contact Us</Link>

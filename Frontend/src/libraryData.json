@@ -1,0 +1,140 @@
+[
+    {
+        "id" : 1 ,
+        "name": "Powdery Mildew",
+        "image1" : "../public/libraryData/powderWhite.jpg" ,
+        "image2" : "../public/libraryData/powderWhite2.jpeg" ,
+        "description": "A fungal disease that appears as a white, powdery coating on leaves and stems. It thrives in warm, dry climates with high humidity. If untreated, it weakens the plant and reduces fruit or flower production."
+    },
+    {
+        "id" :19,
+        "name": "Downy Mildew",
+        "image1" : "../public/libraryData/downy1.jpeg" ,
+        "image2" : "../public/libraryData/downy2.jpeg" ,
+        "description": "Characterized by yellowish spots on the upper surface of leaves and moldy growth underneath. It typically spreads in cool, wet conditions. The disease stunts plant growth and can lead to defoliation."
+    },
+    {
+        "id" : 2 ,
+
+        "name": "Rust",
+        "image1" : "../public/libraryData/rust1.jpeg" ,
+        "image2" : "../public/libraryData/rust2.jpeg" ,
+        "description": "A fungal infection causing reddish or orange pustules on leaves, stems, and sometimes fruits. It spreads through wind or water and thrives in humid environments. Severe infections can reduce photosynthesis and yield."
+    },
+    {
+        "id" : 3,
+
+        "name": "Late Blight",
+        "image1" : "../public/libraryData/lateBright1.jpeg" ,
+        "image2" : "../public/libraryData/lateBright2.jpeg" ,
+        "description": "Known for water-soaked, dark lesions on leaves, stems, and fruits, commonly affecting potatoes and tomatoes. It spreads rapidly in wet and cool conditions. Late blight was the cause of the infamous Irish Potato Famine."
+    },
+    {
+        "id" : 4 ,
+
+        "name": "Early Blight",
+        "image1" : "../public/libraryData/earlyBright1.jpeg" ,
+        "image2" : "../public/libraryData/earlyBright2.jpeg" ,
+        "description": "Causes brown spots with concentric rings on leaves, stems, and fruits. It weakens the plant, leading to reduced yield and quality. This disease commonly affects solanaceous crops like tomatoes and potatoes."
+    },
+    {
+        "id" : 5 ,
+
+        "name": "Leaf Spot",
+        "image1" : "../public/libraryData/spot1.jpeg" ,
+        "image2" : "../public/libraryData/spot2.jpeg" ,
+        "description": "Manifests as dark, circular spots on leaves, often with a yellow halo. Affected leaves may drop prematurely, weakening the plant. It is caused by various fungal or bacterial pathogens and spreads through splashing water."
+    },
+    {
+        "id" :6,
+        "name": "Anthracnose",
+        "image1" : "../public/libraryData/Anthracnose1.jpeg" ,
+        "image2" : "../public/libraryData/Anthracnose2.jpeg" ,
+        "description": "A fungal disease causing dark, sunken lesions on leaves, stems, and fruits. It can lead to defoliation and fruit rot, especially in warm and humid climates. Commonly affects trees, vegetables, and ornamental plants."
+    },
+  
+    {
+        "id" :7,
+        "name": "Fusarium Wilt",
+        "image1" : "../public/libraryData/Fusarium1.jpeg" ,
+        "image2" : "../public/libraryData/Fusarium2.jpeg" ,
+        "description": "A soil-borne fungal disease that invades the plant's vascular system, causing wilting and yellowing. It is highly persistent in soil and difficult to control. Affected plants often die prematurely."
+    },
+    {
+        "id" :8,
+        "name": "Verticillium Wilt",
+        "image1" : "../public/libraryData/Verticillium2.jpeg" ,
+        "image2" : "../public/libraryData/VerticilliumWilt1.jpeg" ,
+        "description": "Causes yellowing and wilting of leaves, similar to Fusarium Wilt. It affects a wide range of plants and can persist in soil for years. Plants often show stunted growth and reduced yields."
+    },
+    {
+        "id" :9,
+        "name": "Bacterial Blight",
+        "image1" : "../public/libraryData/Bacterial1.jpeg" ,
+        "image2" : "../public/libraryData/Bacterial2.jpeg" ,
+        "description": "Produces water-soaked, dark spots on leaves and stems, which may merge and turn necrotic. It spreads through water and contaminated tools. Severe cases can cause significant crop losses."
+    },
+    {
+        "id" :10,
+        "name": "Crown Gall",
+        "image1" : "../public/libraryData/CrownGall1.jpeg" ,
+        "image2" : "../public/libraryData/CrownGall2.jpeg" ,
+        "description": "Forms tumor-like growths at the plant’s crown or roots, affecting water and nutrient uptake. It is caused by a bacterial infection and spreads through soil or contaminated tools. Commonly affects woody plants and vines."
+    },
+    {
+        "id" :11,
+        "name": "Fire Blight",
+        "image1" : "../public/libraryData/Blight1.jpeg" ,
+        "image2" : "../public/libraryData/Blight2.jpeg" ,
+        "description": "Causes blackened, scorched-looking branches and leaves, often affecting fruit trees like apples and pears. The bacteria spread through rain, insects, or pruning tools. Severe infections can kill young trees."
+    },
+    {
+        "id" :12,
+        "name": "Bacterial Wilt",
+        "image1" : "../public/libraryData/BacterialWilt1.jpeg" ,
+        "image2" : "../public/libraryData/BacterialWilt2.jpeg" ,
+        "description": "Blocks water flow within the plant, causing sudden wilting and collapse. It affects crops like cucumbers, melons, and tomatoes. The disease spreads through soil or insect vectors like cucumber beetles."
+    },
+    {
+        "id" :13,
+        "name": "Bacterial Spot",
+        "image1" : "../public/libraryData/BacterialBlight1.jpeg" ,
+        "image2" : "../public/libraryData/BacterialBlight2.jpeg" ,
+        "description": "Produces small, dark, water-soaked spots on leaves, stems, and fruits. It thrives in warm, humid environments and spreads via water splashes. Commonly affects peppers, tomatoes, and other vegetables."
+    },
+    {
+        "id" :14,
+        "name": "Tobacco Mosaic Virus (TMV)",
+        "image1" : "../public/libraryData/Tobacco1.jpeg" ,
+        "image2" : "../public/libraryData/Tobacco2.jpeg" ,
+        "description": "Causes mottled or streaked patterns on leaves, along with stunted growth. It spreads through contaminated tools, seeds, or direct contact with infected plants. Affects a wide variety of crops, including tobacco and tomatoes."
+    },
+    {
+        "id" :15,
+        "name": "Tomato Yellow Leaf Curl Virus",
+        "image1" : "../public/libraryData/Tomato1.jpeg" ,
+        "image2" : "../public/libraryData/Tomato2.jpeg" ,
+        "description": "Leads to yellowing and curling of tomato leaves, along with stunted plant growth. It is transmitted by whiteflies and thrives in warm climates. Severely affected plants may fail to produce viable fruits."
+    },
+    {
+        "id" :16,
+        "name": "Cucumber Mosaic Virus (CMV)",
+        "image1" : "../public/libraryData/Cucumber1.jpeg" ,
+        "image2" : "../public/libraryData/Cucumber2.jpeg" ,
+        "description": "Causes mosaic-like patterns of light and dark green on leaves, often leading to distorted growth. It spreads through aphids and infected seeds. Affects a wide range of crops, including cucumbers, melons, and tomatoes."
+    },
+    {
+        "id" :17,
+        "name": "Banana Bunchy Top Virus (BBTV)",
+        "image1" : "../public/libraryData/Banana1.jpeg" ,
+        "image2" : "../public/libraryData/Banana2.jpeg" ,
+        "description": "Stunts the growth of banana plants, causing bunched and erect leaves. It spreads through infected planting material or banana aphids. Severely infected plants produce no fruit."
+    },
+    {
+        "id" :18,
+        "name": "Potato Virus Y (PVY)",
+        "image1" : "../public/libraryData/Potato1.jpeg" ,
+        "image2" : "../public/libraryData/Potato2.jpeg" ,
+        "description": "Leads to yellowing, mottling, and necrosis on potato leaves. It spreads through aphids and infected seeds. This virus can significantly reduce potato yield and quality."
+    }
+]

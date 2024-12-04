@@ -25,7 +25,7 @@ const goHome = () => {
 <div className={style.contentLinks}>
 
     <span className={style.oneRowLinksFooter}>
-<Link className={style.decorationnone} to={""}>Library</Link>
+<Link className={style.decorationnone} to={"/library"}>Library</Link>
 <Link className={style.decorationnone} to={"/account"}>About US</Link>
 <Link className={style.decorationnone} to={"/contactus"}>Contact Us</Link>
 </span>
