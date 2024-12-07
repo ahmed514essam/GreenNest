@@ -1,22 +1,62 @@
-const trackedPlants = [];
-module.exports = class trackedPlant {
-    constructor(id, name, image, health, scanHistory) {
-        this.id = id;
-        this.name = name;
-        this.image = image;
-        this.health = health;
-        this.scanHistory = scanHistory;
-    }
-     save () {
- 
+const mongoose = require('mongoose');
 
+const plantTrackingSchema = new mongoose.Schema({
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User',
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  type: {
+    type: String,
+    required: true
+  },
+  location: {
+    type: String,
+    required: true
+  },
+  image: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Image',
+    required: true
+  },
+  currentHealth: {
+    diagnosis: String,
+    confidence: Number,
+    recommendations: [String],
+    timestamp: {
+      type: Date,
+      default: Date.now
     }
-    static remove(id) {
-    // plantId = findone    
-    
+  },
+  history: [{
+    image: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Image'
+    },
+    diagnosis: String,
+    confidence: Number,
+    recommendations: [String],
+    timestamp: {
+      type: Date,
+      default: Date.now
     }
+  }],
+  lastUpdated: {
+    type: Date,
+    default: Date.now
+  }
+}, {
+  timestamps: true
+});
 
-static fetchAll() {
-    // get all tracked plants
-}
-}
+// Update lastUpdated timestamp before saving
+plantTrackingSchema.pre('save', function(next) {
+  this.lastUpdated = new Date();
+  next();
+});
+
+module.exports = mongoose.model('PlantTracking', plantTrackingSchema);
