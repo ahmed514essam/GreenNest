@@ -8,6 +8,7 @@ import ChangeAboutsPage from "./Pages/About/ChangeAboutsPage";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Library from "./Pages/Library/Library";
 import ResultProfile from "./Pages/Library/ResultProfile/ResultProfile";
+import Services from "./Pages/Services/Services";
 
 
 
@@ -24,7 +25,7 @@ function App() {
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/library" element={<Library/>} />
         <Route path="/library/:id" element={<ResultProfile/>} />
-        
+        <Route path="/services" element={<Services/>} />
 
         </Route>
       </Routes>

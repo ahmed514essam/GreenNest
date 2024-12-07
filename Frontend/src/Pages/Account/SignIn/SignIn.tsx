@@ -12,6 +12,9 @@ const Register = ({setIfaccount , setInorout} : Changeaccount) => {
     }
     return (
         <>
+
+
+        
         <section className={style.sectionContentRegister}>
 
 

@@ -1,10 +1,13 @@
-import { useState } from "react";
+import {  useState } from "react";
 import SignIn from "../SignIn/SignIn";
 import Register from "../Register/Register";
 
 interface Changeaccount {
-    setIfaccount: (arg0: boolean) => void; // Define the type for the setChange prop
+    setIfaccount: (arg0: boolean) => void; 
   }
+
+
+
 const UserProfile = ({setIfaccount} : Changeaccount) => {
 
     const [ inorout , setInorout ] = useState<boolean>(false);
@@ -16,4 +19,4 @@ const UserProfile = ({setIfaccount} : Changeaccount) => {
         </>
     );
 };
-export default UserProfile
+export default UserProfile ;
